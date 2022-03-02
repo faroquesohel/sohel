@@ -81,7 +81,13 @@
 
             />
 
+<DatePicker
+    android:id="@+id/dpicker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintTop_toBottomOf="@+id/check_switch_default"
 
+    />
 
     </RadioGroup>
 
@@ -124,6 +130,12 @@
         android:textColor="@color/white"
         android:text="@string/user_login"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
